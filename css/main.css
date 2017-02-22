@@ -1,0 +1,42 @@
+.centered {
+    margin: auto;
+    text-align: center;
+}
+.logo-form {
+    width: 160px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.input-group {
+    padding: 12px 8px;
+}
+.margin-right30 {margin-right: 30px;}
+.padding16px {padding: 16px;}
+.font11 {font-size: 11px;}
+
+/*FILEUPLOAD*/
+input[type='file'] { display: none}
+label.label-fileupload {
+  background-color: #3498db;
+  border-radius: 0px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px
+}
+#image-holder {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    position: relative;
+    margin-left: -50px;
+    border-radius: 50%;
+    background: #CECECE;
+}
+#image-holder img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+button {margin:6px;}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="formulario de contato, form, contato" />
+        <meta name="description" content="Formulário de contato" />
+        <meta name="author" content="Thiago Lúcio Bittencourt">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <title>Formulario de Contato</title>
+        <!-- JS -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrapFlatly.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-10" style="margin-top: 50px;">
+                <form class="form-horizontal well bs-component" action="" method="POST"  role="form">
+                    <fieldset>
+                        <legend>
+                            <div class="title"><h4>Formulário de Cadastro JS <small>(Versão padrão 1.0)</small></h4></div>
+                        </legend>
+                        <!-- Upload Imagem do Usuario -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <div id="image-holder"></div>
+                                    <label class="label-fileupload" for='fileUpload'>Escolher Imagem</label>
+                                    <input id="fileUpload" type="file">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="user-label"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" name="userName" class="form-control" placeholder="Nome Completo" aria-describedby="user-label">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="mail-label"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input type="text" name="mailUser" class="form-control" placeholder="e-mail" aria-describedby="mail-label">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="birth-label"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    <input type="text" name="userBirth" class="form-control" placeholder="Data de Nascimento" aria-describedby="birth-label">
+                                </div>
+                                <div class="checkbox font11">
+                                    <label class="pull-left margin-right30">
+                                        <i class="glyphicon glyphicon-question-sign"></i> Deseja divulgar seu Aniversário?
+                                    </label>
+                                    <input type="checkbox" class="pull-right">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="cpf-label"><i class="glyphicon glyphicon-barcode"></i></span>
+                                    <input type="text" name="userCpf" class="form-control" placeholder="CPF" aria-describedby="user-cpf">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="phone-label"><i class="glyphicon glyphicon-earphone"></i></span>
+                                    <input type="text" name="userPhone" class="form-control" placeholder="Seu Telefone" aria-describedby="phone-label">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Endereço -->
+                        <div class="row padding16px">
+                            <div class="title"><legend><h4>Endereço Completo:</h4></legend></div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="cep-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userCep" class="form-control" placeholder="CEP" aria-describedby="cep-label">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="state-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userState" class="form-control" placeholder="Estado" aria-describedby="user-state">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="city-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userCity" class="form-control" placeholder="Cidade" aria-describedby="cidade-label">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row padding16px">
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="neighbor-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userNeighbor" class="form-control" placeholder="Bairro" aria-describedby="neighbor-label">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="street-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userStreet" class="form-control" placeholder="Rua" aria-describedby="street-label">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row padding16px">
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="homeNumber-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userHomeNumber" class="form-control" placeholder="Número" aria-describedby="homeNumber-label">
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="complement-label"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                    <input type="text" name="userComplement" class="form-control" placeholder="Complemento" aria-describedby="complement-label">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row padding16px">
+                            <div class="title"><legend><h4>Definição de Usuário:</h4></legend></div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="usename-label"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" name="username" class="form-control" placeholder="Nome de Usuário" aria-describedby="username">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="usename-pass"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input type="text" name="password" class="form-control" placeholder="Digite Senha" aria-describedby="password">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="usename-pass-confirm"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input type="text" name="passwordConfirm" class="form-control" placeholder="Confirmar Senha" aria-describedby="passwordConfirm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row padding16px">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label for="comment">Resumo Pessoal:</label>
+                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row padding16px">
+                        <div class="col-md-3 pull-right">
+                            <div class="form-group">
+                                <button type="reset" class="btn btn-default"><i class="glyphicon glyphicon-erase"></i> Limpar</button>
+                                <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-ok"></i> Salvar</button>
+                            </div>
+                        </div>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

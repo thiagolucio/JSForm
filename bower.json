@@ -1,0 +1,28 @@
+{
+  "name": "sitethiagolucio",
+  "authors": [
+    "Thiago Lucio Bittencourt"
+  ],
+  "description": "meu site versao curriculum vitae",
+  "main": "index.html",
+  "keywords": [
+    "thiagolucio",
+    "site",
+    "thiagolucio"
+  ],
+  "license": "MIT",
+  "homepage": "www.thiagolucio.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "fast-live-reload": "^2.7.4"
+  }
+}
