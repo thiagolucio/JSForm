@@ -6,6 +6,6 @@ A JavaScript Form with validations and masks using JS and Bootstrap
 
 <h2>For Use live reload:</h2>
 
-1) Need install "npm install -g fast-live-reload"
-2) Run inside the project folder "fast-live-reload"
-3) Open the project type in your browser input URL "localhost:9000/form.html" to execute.
+<h5>1) Need install "npm install -g fast-live-reload"</h5>
+<h5>2) Run inside the project folder "fast-live-reload"</h5>
+<h5>3) Open the project type in your browser input URL "localhost:9000/form.html" to execute.</h5>
